@@ -11,7 +11,6 @@
   }
 
   &__text{
-
     grid-column: span 2;
 
     @include on-tablet{
@@ -25,7 +24,7 @@
 
     &--title{
       padding-top: 16px;
-      font-family: Poppins;
+      font-family: Poppins ,sans-serif;
       font-weight: 600;
       font-size: 32px;
       line-height: 130%;
@@ -36,7 +35,7 @@
         padding-bottom: 16px;
         display: block;
         content: "Services";
-        font-family: Poppins;
+        font-family: Poppins , sans-serif;
         font-weight: 700;
         font-size: 13px;
         line-height: 100%;
@@ -48,7 +47,7 @@
 
     &--info{
       padding-block: 24px 32px;
-      font-family: Open Sans;
+      font-family: "Open Sans" , sans-serif;
       font-weight: 400;
       font-size: 14px;
       line-height: 150%;
@@ -135,7 +134,7 @@
     }
 
     &--item{
-      font-family: Open Sans;
+      font-family: "Open Sans" , sans-serif;
       font-weight: 600;
       font-size: 13px;
       line-height: 150%;
@@ -149,7 +148,7 @@
        text-decoration: none;
 
       &-text{
-        font-family: Poppins;
+        font-family: Poppins ,sans-serif;
         font-weight: 600;
         font-size: 15px;
         line-height: 100%;

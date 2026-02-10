@@ -3,7 +3,6 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  // background-color: #2C2C2C;
 
   &__logo{
     height: 28px;
@@ -18,7 +17,7 @@
   &__last{
     display: block;
     text-decoration: none;
-    font-family: Poppins;
+    font-family: Poppins , sans-serif;
     font-weight: 700;
     font-size: 13px;
     line-height: 150%;

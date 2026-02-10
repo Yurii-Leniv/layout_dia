@@ -51,11 +51,13 @@
 
   @include on-tablet{
     --colums: 6;
+
     column-gap: 30px;
   }
 
   @include on-desktop{
     --colums: 12;
+    
     column-gap: 20px;
   }
 

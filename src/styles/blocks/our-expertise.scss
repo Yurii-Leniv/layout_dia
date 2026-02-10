@@ -5,7 +5,7 @@
   &__title{
     padding-block: 72px 52px;
     color: #253757;
-    font-family: Poppins;
+    font-family: Poppins , sans-serif;
     font-weight: 600;
     font-size: 44px;
     line-height: 120%;
@@ -55,7 +55,7 @@
     &--title{
       color: #253757;
       padding-block: 32px 16px;
-      font-family: Poppins;
+      font-family: Poppins , sans-serif;
       font-weight: 600;
       font-size: 20px;
       line-height: 140%;
@@ -67,7 +67,7 @@
     }
 
     &--text{
-      font-family: Open Sans;
+      font-family: "Open Sans" ,sans-serif;
       font-weight: 400;
       font-size: 14px;
       line-height: 150%;
