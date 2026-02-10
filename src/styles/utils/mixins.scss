@@ -1,4 +1,4 @@
-@mixin hover($_property, $_toValue) {
+@mixin hover($_property , $_toValue) {
   transition: #{$_property} 0.3s;
   &:hover {
     #{$_property}: $_toValue;
@@ -57,7 +57,7 @@
 
   @include on-desktop{
     --colums: 12;
-    
+
     column-gap: 20px;
   }
 
