@@ -10,9 +10,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" >
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link
       rel="stylesheet"
-      href="./src/styles/main.scss"
+      href="src/styles/main.scss"
     />
     <script type="module" src="src/scripts/main.js"></script>
   </head>
@@ -65,7 +66,54 @@
 
             <a href="#" class="button header__button">Learn more</a>
           </div>
-          <div class="header__scroler">
+          
+          <div class="header__slider slider">
+            <!-- Slider main container -->
+            <div class="swiper">
+              <!-- Additional required wrapper -->
+              <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide slider__item">
+                  <img
+                    src="./src/images/logo/slide-1.svg"
+                    alt="Slide 1"
+                    class="slider__image"
+                  />
+                </div>
+                <div class="swiper-slide slider__item">
+                  <img
+                    src="./src/images/logo/slide-1.svg"
+                    alt="Slide 2"
+                    class="slider__image"
+                  />
+                </div>
+                <div class="swiper-slide slider__item">
+                  <img
+                    src="./src/images/logo/slide-1.svg"
+                    alt="Slide 3"
+                    class="slider__image"
+                  />
+                </div>
+              </div>
+
+              <div class="slider__navigation slider__navigation--prev">
+                <img
+                  class="slider__arrow slider__arrow--prev"
+                  src="./src/images/logo/Arrow-left.svg"
+                  alt="Previous Slide"
+                />
+              </div>
+              <div class="slider__navigation slider__navigation--next">
+                <img
+                  class="slider__arrow slider__arrow--next"
+                  src="./src/images/logo/Arrow-right.svg"
+                  alt="Next Slide"
+                />
+              </div>
+              <p class="slider__slide-text">
+                By the same illusion which lifts the horizon.
+              </p>
+            </div>
           </div>
         </div>
       </div>

@@ -2,7 +2,7 @@
   "name": "dia",
   "version": "1.0.0",
   "description": "Dia landing page",
-  "homepage": ".",
+  "homepage": "layout_dia",
   "scripts": {
     "init": "mate-scripts init",
     "start": "mate-scripts start",
@@ -42,5 +42,8 @@
     "tests": {
       "backstop": false
     }
+  },
+  "dependencies": {
+    "swiper": "^12.1.1"
   }
 }
